@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>fomrs</title>
+  <style>
+    body{
+      background: #cccccc;
+    }
+    h1{
+      text-align: center;
+      border-bottom: black 1px solid;
+    }
+    a{
+      text-decoration: none;
+      color: blue;
+    }
+    textarea{
+      resize: none;
+    }
+
+  </style>
+</head>
+<body>
+<h1>Formulario estándar</h1>
+<form method="" action="">
+  <label  name="nombre"  >Nombre: </label>
+  <input  type="text" name="nombre" placeholder="Inserte nombre" autofocus required></input:>
+  <br><br>
+  <label>Apellido: </label>
+  <input type="text" name="nombre" value="" placeholder="Inserte apellido" autofocus></input:>
+  <br><br>
+  <label name="ciudad">Elija ciudad: </label>
+
+  <select name="ciudad">
+    <option name="ciudad" hidden disabled selected>-Elija ciudad-</option>
+    <option name="ciudad">madrid</option>
+    <option name="ciudad">barcelona</option>
+    <option name="ciudad">zaragoza</option>
+    <option name="ciudad">jerez</option>
+    <option name="ciudad">bilbao</option>
+  </select>
+  <br><br>
+  <label name="gustos">Gustos: </label>
+  <br>
+  <input name="moda" type="checkbox" value="moda">Moda</input>
+  <br>
+  <input name="deporte" type="checkbox" value="deporte">Deporte</input>
+  <br>
+  <input name="mascostas" type="checkbox" value="mascotas">mascotas</input><br>
+  <label>Color favorito: </label>
+  <input type="color">
+  <br><br>
+  <label name="Sexo">Sexo: </label><br>
+  <input name="sexo" type="radio">Mujer</input><br>
+  <input name="sexo" type="radio">Hombre</input><br>
+  <input name="sexo" type="radio">prefrio no decir</input><br><br>
+
+  <label name="Contacto">Contáctanos</label><br><br>
+
+  <button>
+    <a href="mailto:jcorber855@g.educaand.es?subject=Nota&body=Hola esto es un correo de prueba" id="button">enlace para enviar un correo con asunto y cuerpo</a>
+  </button>
+  <br><br>
+  <textarea  name="massobreti" id="info" cols="30" rows="10" placeholder="Escriba si necesitamos saber algo más sobre ti" ></textarea><br>
+  <label name="Hora">Introduce fecha y hora</label>
+  <input type="datetime-local">a</input><br><br>
+  <input type="reset">
+  <input  type="submit">
+</form>
+<br>
+<button>
+  <a href="index.html"><h2>Para volver atrás</h2></a>
+
+</button>
+</body>
+</html>
